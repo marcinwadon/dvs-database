@@ -3,7 +3,6 @@
 /// <reference path="../typings/sinon/sinon.d.ts" />
 /// <reference path="../typings/sinon-chai/sinon-chai.d.ts" />
 
-
 import Database from '../lib/Database';
 import { expect, should } from 'chai';
 import * as sinon from 'sinon';
