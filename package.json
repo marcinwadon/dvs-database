@@ -1,0 +1,25 @@
+{
+  "name": "dvs-database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "postinstall": "tsd install",
+    "pretest": "tsc test/*.ts --module commonjs --sourcemap",
+    "test": "nyc mocha",
+    "posttest": "nyc report --reporter=json && codecov -f coverage/*.json"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "codecov": "^1.0.1",
+    "mocha": "^3.1.0",
+    "nyc": "^8.3.0",
+    "tsd": "^0.6.5",
+    "typescript": "^2.0.3"
+  }
+}

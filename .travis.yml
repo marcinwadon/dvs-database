@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - 6
+  - 5
+install:
+  - npm i --de
+script:
+  - npm test
