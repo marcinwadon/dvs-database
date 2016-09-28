@@ -11,8 +11,8 @@ pids
 
 lib-cov
 
-coverage/*
-.nyc-output/*
+coverage
+.nyc_output
 coverage.*
 
 .lock-wscript
