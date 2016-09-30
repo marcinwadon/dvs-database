@@ -25,7 +25,6 @@ build/Release
 node_modules
 .npm
 .node_repl_history
-.tsdrc
 typings/
 lib/*.js
 test/*.js

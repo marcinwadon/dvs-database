@@ -3,8 +3,6 @@ node_js:
   - 6
   - 5
 install:
-  - npm i --dev
-before_script:
-  - echo {\"token\":\"$TSDRC_TOKEN\"} > .tsdrc
+  - npm i --only=dev
 script:
   - npm test

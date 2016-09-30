@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "postinstall": "tsd install",
+    "postinstall": "typings i",
     "pretest": "tsc test/*.ts --module commonjs --sourcemap",
     "test": "nyc mocha",
     "posttest": "nyc report --reporter=json && codecov -f coverage/*.json"
@@ -17,7 +17,7 @@
     "nyc": "^8.3.0",
     "sinon": "^1.17.6",
     "sinon-chai": "^2.8.0",
-    "tsd": "^0.6.5",
-    "typescript": "^2.0.3"
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0"
   }
 }
