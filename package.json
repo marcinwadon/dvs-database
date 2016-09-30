@@ -2,10 +2,6 @@
   "name": "dvs-database",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/app.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "postinstall": "tsd install",
     "pretest": "tsc test/*.ts --module commonjs --sourcemap",
