@@ -9,22 +9,22 @@ pids
 *.pid
 *.seed
 
+#
 lib-cov
-
 coverage
 .nyc_output
 coverage.*
 
+#
 .lock-wscript
 
+#
 build/Release
 
+#
 node_modules
-
 .npm
-
 .node_repl_history
-
 typings/
 lib/*.js
 test/*.js
